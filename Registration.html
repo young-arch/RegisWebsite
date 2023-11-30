@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+   
+    <link rel="stylesheet" href="Registration.css" />
+  </head>
+  <body>
+    <section class="container">
+      <header>Registration Form</header>
+      <form action="#" class="form">
+        <div class="input-box">
+          <label>Full Name</label>
+          <input type="text" placeholder="Enter full name" required />
+        </div>
+
+        <div class="input-box">
+          <label>Student Email</label>
+          <input type="text" placeholder="Enter Student mail" required />
+        </div>
+
+        <div class="input-box">
+          <label>Student ID</label>
+          <input type="text" placeholder="Enter Student ID" required />
+        </div>
+        
+        <div class="gender-box">
+          <h3>Gender</h3>
+          <div class="gender-option">
+            <div class="gender">
+              <input type="radio" id="check-male" name="gender" checked />
+              <label for="check-male">Male</label>
+            </div>
+            <div class="gender">
+              <input type="radio" id="check-female" name="gender" />
+              <label for="check-female">Female</label>
+            </div>
+            <div class="gender">
+              <input type="radio" id="check-other" name="gender" />
+              <label for="check-other">prefer not to say</label>
+            </div>
+          </div>
+          <br>
+          <br>
+          <h3>Student Status</h3>
+          <div class="status-option">
+            <div class="status">
+              <input type="radio" id="check-present" name="status" checked />
+              <label for="check-present">Present</label>
+            </div>
+            <div class="status">
+              <input type="radio" id="check-absent" name="status" />
+              <label for="check-absent">Absent</label>
+            </div>
+          </div>
+
+
+        </div>
+        <div class="input-box address">
+          <div class="column">
+            <div class="select-box">
+              <select>
+                <option hidden>Faculty / Department</option>
+                <option>Medical Sciences</option>
+                <option>Engineering & Technology</option>
+                <option>Social Sciences</option>
+                <option>Business</option>
+                <option>Law</option>
+                <option>Architecture</option>
+              </select>
+            </div>
+          </div>git add .
+          git commit -m "Initial commit: Create basic HTML and CSS files"
+          
+          
+          <div class="column">
+            <div class="input-box">
+              <label>Student Dues</label>
+              <input type="number" placeholder="Enter amount to be paid" required />
+            </div>
+          </div>
+        </div>
+        <button>Submit</button>
+      </form>
+    </section>
+  </body>
+</html>
